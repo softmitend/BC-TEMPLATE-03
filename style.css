@@ -257,16 +257,16 @@ h1 {
 }
 
 .sticker-pink {
-  top: 292px;
-  left: 28px;
+  top: 440px;
+  left: 70px;
   z-index: 9;
   background: #ffc2db;
   transform: rotate(8deg);
 }
 
 .sticker-mint {
-  right: 34px;
-  bottom: 36px;
+  right: 42px;
+  bottom: 82px;
   background: var(--mint);
   transform: rotate(6deg);
 }
@@ -347,7 +347,7 @@ h1 {
   background: #f6d8e5;
   box-shadow: 12px 12px 0 var(--blue);
   margin-top: 54px;
-  transform: translateX(25px) rotate(-2deg);
+  transform: translateX(10px) rotate(-2deg);
   /* justify-self: end; */
   z-index: 2;
 }
@@ -498,8 +498,8 @@ h1 {
 }
 
 .photo-wrap .desktop-big-heart {
-  left: 84%;
-  bottom: -235px;
+  left: 52%;
+  bottom: -216px;
   z-index: 8;
   display: block;
   color: var(--mint);
@@ -513,6 +513,14 @@ h1 {
   right: 88px;
   top: 244px;
   animation-delay: -0.8s;
+}
+
+.wish-flower-two {
+  left: 175px;
+  bottom: 66px;
+  z-index: 4;
+  font-size: 1.65rem;
+  animation-delay: -1.2s;
 }
 
 body.page-leaving {
