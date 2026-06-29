@@ -806,32 +806,6 @@ body.page-leaving {
   }
 }
 
-@media (max-height: 620px) and (min-width: 761px) {
-  .envelope-screen,
-  .wish-screen {
-    padding-block: 24px;
-  }
-
-  .intro-card {
-    padding-block: 30px;
-  }
-
-  .envelope-button {
-    width: min(56vw, 242px);
-  }
-
-  .birthday-card {
-    padding-block: 30px;
-  }
-
-  .photo-wrap {
-    width: min(100%, 220px);
-    max-width: none;
-    min-height: 0;
-    margin-top: 46px;
-  }
-}
-
 @media (prefers-reduced-motion: reduce) {
   *,
   *::before,
