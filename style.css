@@ -258,7 +258,7 @@ h1 {
 
 .sticker-pink {
   top: 440px;
-  left: 70px;
+  left: 58px;
   z-index: 9;
   background: #ffc2db;
   transform: rotate(8deg);
@@ -268,7 +268,7 @@ h1 {
   right: 42px;
   bottom: 82px;
   background: var(--mint);
-  transform: rotate(6deg);
+  transform: rotate(-6deg);
 }
 
 .deco {
@@ -865,7 +865,7 @@ body.page-leaving {
 
 .page-wish .sticker-pink {
   top: 440px;
-  left: 70px;
+  left: 58px;
   display: block;
 }
 
