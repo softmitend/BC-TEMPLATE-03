@@ -806,6 +806,99 @@ body.page-leaving {
   }
 }
 
+.page-wish .birthday-card {
+  grid-template-columns: minmax(230px, 0.82fr) minmax(280px, 1.18fr);
+  gap: clamp(22px, 5vw, 44px);
+  align-items: start;
+  width: min(92vw, 880px);
+  padding: clamp(28px, 5vw, 54px);
+}
+
+.page-wish .photo-wrap {
+  width: min(100%, 285px);
+  max-width: none;
+  overflow: visible;
+  margin: 54px 0 0;
+  transform: translateX(10px) rotate(-2deg);
+  justify-self: auto;
+  box-shadow: 12px 12px 0 var(--blue);
+}
+
+.page-wish .photo-wrap .desktop-big-heart {
+  left: 52%;
+  bottom: -216px;
+  display: block;
+}
+
+.page-wish .photo-wrap .photo-heart {
+  top: -30px;
+  left: 16px;
+  font-size: clamp(1.8rem, 4vw, 2.55rem);
+}
+
+.page-wish .wish-content {
+  text-align: left;
+}
+
+.page-wish .wish-content h1 {
+  font-size: clamp(2.55rem, 10vw, 5.8rem);
+  line-height: 0.9;
+}
+
+.page-wish .wish-message {
+  font-size: clamp(0.95rem, 1.8vw, 1.04rem);
+  line-height: 1.8;
+}
+
+.page-wish .signature-row {
+  width: max-content;
+  justify-content: flex-start;
+  margin-top: 24px;
+  text-align: left;
+}
+
+.page-wish .sticker {
+  padding: 10px 16px;
+  font-size: clamp(0.74rem, 2vw, 0.9rem);
+  box-shadow: 0 8px 0 rgba(17, 26, 56, 0.08);
+}
+
+.page-wish .sticker-pink {
+  top: 440px;
+  left: 70px;
+  display: block;
+}
+
+.page-wish .sticker-mint {
+  right: 42px;
+  bottom: 82px;
+  display: block;
+}
+
+.page-wish .wish-star-one {
+  top: 82px;
+  right: 16px;
+  display: block;
+}
+
+.page-wish .wish-star-two {
+  bottom: 122px;
+  left: 34px;
+  display: block;
+}
+
+.page-wish .wish-flower-one {
+  top: 244px;
+  right: 88px;
+  display: block;
+}
+
+.page-wish .wish-flower-two {
+  left: 175px;
+  bottom: 66px;
+  display: block;
+}
+
 @media (prefers-reduced-motion: reduce) {
   *,
   *::before,
