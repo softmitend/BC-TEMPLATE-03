@@ -559,28 +559,57 @@ body.page-leaving {
   }
 
   .birthday-card {
-    grid-template-columns: minmax(210px, 0.8fr) minmax(0, 1.2fr);
-    gap: 30px;
-    padding: 36px 30px 42px;
+    grid-template-columns: 1fr;
+    gap: 28px;
+    width: min(94vw, 560px);
+    padding: 34px 26px 38px;
   }
 
   .photo-wrap {
-    width: min(100%, 230px);
+    width: min(72vw, 250px);
     max-width: none;
     min-height: 0;
-    margin-top: 50px;
-    transform: translateX(12px) rotate(-2deg);
-    justify-self: end;
+    margin: 0 auto;
+    transform: rotate(-2deg);
+    justify-self: center;
+  }
+
+  .wish-content h1 {
+    font-size: clamp(2.75rem, 10vw, 4.25rem);
+    line-height: 0.94;
+  }
+
+  .wish-content {
+    text-align: left;
   }
 
   .wish-message {
-    font-size: 0.96rem;
+    font-size: 0.94rem;
     line-height: 1.72;
   }
 
+  .signature-row {
+    margin-top: 20px;
+  }
+
+  .sticker-pink {
+    top: 238px;
+    left: 24px;
+  }
+
   .sticker-mint {
-    right: 4%;
-    bottom: 4%;
+    right: 22px;
+    bottom: 24px;
+  }
+
+  .wish-star-one {
+    top: 74px;
+    right: 18px;
+  }
+
+  .wish-flower-one {
+    top: 330px;
+    right: 48px;
   }
 }
 
@@ -687,8 +716,8 @@ body.page-leaving {
 
 @media (min-width: 431px) and (max-width: 980px) {
   .sticker-pink {
-    top: calc(25% - 3rem);
-    left: 63%;
+    top: 238px;
+    left: 24px;
     padding: 10px 16px;
     font-size: clamp(0.74rem, 2vw, 0.9rem);
   }
